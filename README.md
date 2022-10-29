@@ -16,17 +16,17 @@ This repositorty expains the procedure to connect the Heltec Cubcell GPS HTCC-AB
       J. Set some random "End Device ID" and click Register End Device button.
       
 2. Add the payload formatter in your TTN application created in the Step 1 as follows:
--Go to Overview -> Payload formatter -> Uplink 
--Select "Formatter Type" as Custom Javascript formatter and paste the contenct of "PayLoadFormatter.txt"
--Click Save Changes
+- Go to Overview -> Payload formatter -> Uplink 
+- Select "Formatter Type" as Custom Javascript formatter and paste the contenct of "PayLoadFormatter.txt"
+- Click Save Changes
 
 3. Add the webhook in your TTN application as follows:
--Go to Integration -> Webhooks -> Click Add Webhook
--Select Webhook template "TTN Mapper"
--Set "Webhook ID" and email address to create the webhook
--The webhook will be active in a couple of miniutes
+- Go to Integration -> Webhooks -> Click Add Webhook
+- Select Webhook template "TTN Mapper"
+- Set "Webhook ID" and email address to create the webhook
+- The webhook will be active in a couple of miniutes
 
 4. Upload sketch to Heltec module via Arduino IDE
--Update devEui[], appEui[], and appKey[] in the sketch "CubeCellTTNMapper.ino" received from in Step 1.
--Select the correct REGION frequency and NETMODE as "OTAA" in the Arduino IDE 'Tool' dropdown menu. 
--Upload sketch to the Heltec GPS board.
+- Update devEui[], appEui[], and appKey[] in the sketch "CubeCellTTNMapper.ino" received from in Step 1.
+- Select the correct REGION frequency and NETMODE as "OTAA" in the Arduino IDE 'Tool' dropdown menu. 
+- Upload sketch to the Heltec GPS board.
