@@ -1,4 +1,4 @@
-![This is an image](https://github.com/rahulthakur-ms/TTN-Mapper-Cubecell-GPS/blob/main/cubecell.jpg)
+![This is an image](https://github.com/rahulthakur-ms/TTN-Mapper-Cubecell-GPS/blob/main/cubecellGPS.jpg)
 # TTN-Mapper-Cubecell-GPS
 This repositorty expains the procedure to connect the Heltec Cubcell GPS HTCC-AB02S with the TTN Mapper
 
